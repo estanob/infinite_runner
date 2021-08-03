@@ -1,0 +1,29 @@
+{
+  "name": "js_game",
+  "version": "1.0.0",
+  "description": "ATLA/LOK themed infinite runner game",
+  "main": "/src/index.js",
+  "dependencies": {
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9"
+  },
+  "scripts": {
+    "webpack": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estanob/infinite_runner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estanob/infinite_runner/issues"
+  },
+  "homepage": "https://github.com/estanob/infinite_runner#readme"
+}
