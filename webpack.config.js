@@ -4,7 +4,8 @@ module.exports = {
   context: __dirname,
   entry: '/src/index.js',
   output: {
-    path: path.resolve(__dirname)
+    filename: 'bundle.js',
+    path: path.resolve(__dirname),
   },
   resolve: {
     extensions: ['js', '*'],
