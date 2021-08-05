@@ -2,11 +2,12 @@ var path = require("path");
 
 module.exports = {
   context: __dirname,
-  entry: '/src/index.js',
+  entry: './lib/infinite_runner.js',
   output: {
-    filename: 'bundle.js',
+    filename: './lib/bundle.js',
     path: path.resolve(__dirname),
   },
+  devtool: 'source-map',
   resolve: {
     extensions: ['js', '*'],
   },
