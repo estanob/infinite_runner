@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="height:100%">
+<html style="height:100%; background-color: #a8f6ff;">
   <head>
     <meta charset="utf-8">
     <title>Infinite Surfer</title>
@@ -10,9 +10,9 @@
       Pause
     </button>
   </header>
-  <body style="height: 600px; width: 600px; justify-content: center; align-items: center;">
+  <body class="background" style="height: 600px; width: 600px; justify-content: center; align-items: center;">
   <!-- <body style="height: 100%; width: 100%; justify-content: center; align-items: center;"> -->
-    <div style="display: flex; margin-top: 30px; margin-bottom: 15px; height: 80vh;" class="game-body">
+    <div style="display: flex; margin-top: 30px; margin-bottom: 15px; height: 80vh; width: 80vw" class="game-body">
       <div class="game-title-description" style="margin-right: 20px; min-width: 150px;">
         <h1>ATLA Surfing</h1>
         <h3>How to play:</h3>
@@ -20,7 +20,7 @@
         <p>Use water bending to push the sharks out of the way or to move your surfboard away from the whirlpool!</p>
         <p>Surf to get the highest score!</p>
       </div>
-      <canvas id="game-canvas"></canvas>
+      <canvas id="game-canvas" style="width: 1100px;"></canvas>
       <!-- <canvas id="game-canvas" style="height: 600; width: 1050;"></canvas> -->
       <!-- <canvas id="game-canvas" height="640" width="480"></canvas> -->
     </div>
