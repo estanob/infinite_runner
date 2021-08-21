@@ -1,10 +1,18 @@
 const Game = require('../lib/game.js');
 
+// window.addEventListener("DOMContentLoaded", () => {
+//   const splash = document.getElementById('splash')
+//   const startButton = document.getElementById('start')
+//   const gameContainer = document.getElementsByClassName("game-container");
+//   const canvas = document.getElementById('game-canvas').setAttribute('width', '900px').setAttribute('height', '650px');
+//   new Game(canvas);
+  
+//   console.log(startButton)
 
-const canvas = document.getElementById('game-canvas').setAttribute('width', '900px').setAttribute('height', '650px');
-// const canvas = document.getElementById('game-canvas').setAttribute('width', '1500px').setAttribute('height', '650px');
-// const canvas = document.getElementById('game-canvas').setAttribute('width', '3000px').setAttribute('height', '5000px');
-new Game(canvas);
-
-const pause = document.getElementById("pause-button");
-pause.addEventListener("click", canvas.pauseGame);
+//   startButton.addEventListener("click", () => {
+//     console.log(splash)
+//     console.log(gameContainer)
+//     splash.classList.add("hidden")
+//     gameContainer.classList.remove("hidden")
+//   })
+// })

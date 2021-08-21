@@ -4,28 +4,47 @@
     <meta charset="utf-8">
     <title>Infinite Surfer</title>
     <script type="text/javascript" src="lib/bundle.js"></script>
+    <link rel="stylesheet" href="src/style.css">
   </head>
-  <header>
-    <button id="pause-button">
-      Pause
-    </button>
-  </header>
-  <body class="background" style="height: 600px; width: 600px; justify-content: center; align-items: center;">
-  <!-- <body style="height: 100%; width: 100%; justify-content: center; align-items: center;"> -->
-    <div style="display: flex; margin-top: 30px; margin-bottom: 15px; height: 80vh; width: 80vw" class="game-body">
-      <div class="game-title-description" style="margin-right: 20px; min-width: 150px;">
+  <body class="background" style="justify-content: center; align-items: center;">
+  <!-- <body class="background" style="height: 600px; width: 600px; justify-content: center; align-items: center;"> -->
+    <header class="header">
+      <h1>Surfing</h1>
+    </header>
+
+    <div id="splash">
+      <h1>Welcome!</h1>
+      <p>
+        This is an Avatar the Last Airbender themed 2-D infinite surfing game.
+        Don't touch the sharks! Use water bending powers to push them out of the way.
+      </p>
+      <button id="start">Start</button>
+    </div>
+
+    <div class="game-container hidden">
+      <canvas id="game-canvas"></canvas>
+    </div>
+    <!-- <div class="game-container hidden"> -->
+      <!-- <canvas id="game-canvas" ></canvas> -->
+    <!-- <canvas id="game-canvas" style="width: 1100px;"></canvas> -->
+    <!-- </div> -->
+    <!-- <div style="display: flex; margin-top: 30px; margin-bottom: 15px; height: 80vh; width: 80vw" class="game-body hidden"> -->
+    <!-- <div style="display: flex; margin-top: 30px; margin-bottom: 15px; height: 80vh; width: 80vw" class="game-body"> -->
+      <!-- <div class="game-title-description" style="margin-right: 20px; min-width: 150px;">
         <h1>ATLA Surfing</h1>
         <h3>How to play:</h3>
         <p>Dodge the sharks and whirlpools!</p>
         <p>Use water bending to push the sharks out of the way or to move your surfboard away from the whirlpool!</p>
         <p>Surf to get the highest score!</p>
-      </div>
-      <canvas id="game-canvas" style="width: 1100px;"></canvas>
-      <!-- <canvas id="game-canvas" style="height: 600; width: 1050;"></canvas> -->
-      <!-- <canvas id="game-canvas" height="640" width="480"></canvas> -->
-    </div>
+      </div> -->
+      <!-- <div class="game-container hidden"> -->
+        <!-- <canvas id="game-canvas" ></canvas> -->
+        <!-- <canvas id="game-canvas" style="width: 1100px;"></canvas> -->
+      <!-- </div> -->
+    <!-- </div> -->
     <script src="lib/bundle.js" charset="utf-8"></script>
     <script src="src/keymaster.js"></script>
+    <link rel="stylesheet" href="src/style.css">
   </body>
   <footer>
     <div class="footer-links">
