@@ -1,5 +1,4 @@
 .background {
-  background-image: url('717455-avatar-water-tribe-small-by-kellyw.jpg');
   background-color: #a8f6ff;
 }
 
@@ -13,13 +12,17 @@
 
 #start {
   text-decoration: none;
-  background: white;
-  border-radius: 2px #045080;
+  background: none;
+  font-size: 25px;
+  color: #045080;
+  border-radius: 20px;
+  border: 10px solid #045080;
 }
 
 #start:hover{
   filter: brightness(50%);
   background: #045080;
+  color: #a8f6ff;
 }
 
 .game-container {
@@ -33,4 +36,17 @@
 
 .hidden::before {
   display: none;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+.footer-link {
+  text-decoration: none; 
+  color: black;
+}
+
+.footer-link:hover {
+  color: #045080;
 }
