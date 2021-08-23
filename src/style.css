@@ -3,10 +3,29 @@
   background-color: #a8f6ff;
 }
 
-/* #game-canvas {
-  width: 1000px;
-  height: 580px;
-} */
+.header {
+  text-align: center;  
+}
+
+#splash {
+  text-align: center;
+}
+
+#start {
+  text-decoration: none;
+  background: white;
+  border-radius: 2px #045080;
+}
+
+#start:hover{
+  filter: brightness(50%);
+  background: #045080;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+}
 
 .hidden {
   display: none;
