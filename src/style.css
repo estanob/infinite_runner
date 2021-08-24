@@ -12,7 +12,6 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   color: #045080;
-	vertical-align: baseline;
   font-family: BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif;
   background-color: #a8f6ff;
 }
