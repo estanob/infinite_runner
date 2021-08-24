@@ -11,9 +11,20 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  color: #045080;
+  /* color: #045080; */
+  color: #002559;
   font-family: BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif;
-  background-color: #a8f6ff;
+}
+
+.background {
+  background-image: url(
+    '/Users/estanob/Library/Mobile Documents/com~apple~CloudDocs/Desktop/js_game/src/img/717455-avatar-water-tribe-small-by-kellyw.jpg'
+  ); 
+  justify-content: center; 
+  align-items: center;
+  min-height: 95vh;
+  width: 98vw;
+  background-size: 100% 100%;
 }
 
 .header {
@@ -32,15 +43,13 @@ time, mark, audio, video {
   text-decoration: none;
   background: none;
   font-size: 25px;
-  color: #045080;
   border-radius: 20px;
-  border: 10px solid #045080;
+  border: 5px solid #002559;
 }
 
 #start:hover{
-  filter: brightness(50%);
-  background: #045080;
-  color: #a8f6ff;
+  color: #75E6DA;
+  border: 5px solid #75E6DA;
 }
 
 #game-container {
@@ -69,9 +78,8 @@ footer {
 
 .footer-link {
   text-decoration: none; 
-  color: black;
 }
 
 .footer-link:hover {
-  color: #045080;
+  color: #75E6DA;
 }
