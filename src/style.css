@@ -24,6 +24,10 @@ time, mark, audio, video {
   text-align: center;
 }
 
+#background {
+  z-index: -1;
+}
+
 #start {
   text-decoration: none;
   background: none;
