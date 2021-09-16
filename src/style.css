@@ -24,18 +24,18 @@ time, mark, audio, video {
   align-items: center;
   min-height: 95vh;
   width: 98vw;
-  background-size: 220% 220%;
+  background-size: 250% 250%;
 }
 
 .header {
   text-align: center;  
 }
 
-#splash {
+.welcome-screen {
   text-align: center;
 }
 
-#splash > p {
+.welcome-screen > p {
   color: rgb(26, 31, 58);
   font-weight: 650;  
 }
@@ -43,15 +43,6 @@ time, mark, audio, video {
 #background {
   z-index: -1;
 }
-
-/* #start {
-  text-decoration: none;
-  background: none;
-  font-size: 25px;
-  border-radius: 20px;
-  border: 5px solid #002559;
-  cursor: pointer;
-} */
 
 .game-button {
   text-decoration: none;
