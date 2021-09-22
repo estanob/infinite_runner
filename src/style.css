@@ -67,6 +67,10 @@ time, mark, audio, video {
   text-align: center;
 }
 
+#win-screen {
+  text-align: center;
+}
+
 .hidden {
   display: none;
 }
